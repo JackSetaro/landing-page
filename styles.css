@@ -57,7 +57,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .header{
@@ -163,6 +163,29 @@ ul.header-links a,.left-content p{
 .section3{
     background-color: #E5E7EB;
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 750px;
+}
+
+#author{
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 /*--------------------------------------------------------------
